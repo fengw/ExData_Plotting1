@@ -1,4 +1,4 @@
-source("loadzipdata.zip") 
+source("loadzipdata.r") 
 
 png("plot4.png", width=480, height=480)
 
