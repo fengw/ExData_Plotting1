@@ -13,6 +13,6 @@ lines(subset$Time,subset$Sub_metering_2,col="red")
 lines(subset$Time,subset$Sub_metering_3,col="blue")
 legend("topright",c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),bty="l",col=c("black","red","blue"),lwd=2,cex=0.7)
 
-plot(subset$Time, subset$Global_reactive_power, type = "l", xlab = "datetime", ylab = "Voltage")
+plot(subset$Time, subset$Global_reactive_power, type = "l", xlab = "datetime", ylab = "Global_reactive_power")
 
 dev.off()
